@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form input[type="date"],
+.form input[type="number"],
+.form input[type="text"],
+.form .input-sum,
+.form .input-author {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-categories label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.form-categories input[type="radio"] {
+  margin-right: 10px;
+}
+
+.form-button button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button button:hover {
+  background-color: #0056b3;
+}
+
+.list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.list th,
+.list td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.list th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.list tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.list tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+.list td {
+  text-align: center;
+}
+
+.list td:hover {
+  cursor: pointer;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.list button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+
+.btnEdit {
+  background-color: rgb(221, 221, 57);
+}
+
+.btnDelete {
+  background-color: rgb(204, 61, 61);
+}
